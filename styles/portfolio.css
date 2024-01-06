@@ -101,13 +101,23 @@ margin-bottom: 20px;
   height: 40px;
   color: #757575;
 }
-
+main{
+  max-width: 1150px;
+  margin: 0px auto;
+}
  /* main section styles */
  /* about styles */
  .about{
   padding: 130px;
   border-radius: 10px;
 background: #FFF8F3;
-margin: 130px 0px;
+margin: 130px 120px;
 
+ }
+ .about-info-container{
+  display: flex;
+  justify-content: space-around;
+ }
+ .about-info{
+  text-align: center;
  }
